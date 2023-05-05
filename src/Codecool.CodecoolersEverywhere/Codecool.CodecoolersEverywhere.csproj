@@ -2,14 +2,12 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <StartupObject>Codecool.CodeCoolersEverywhere.Program</StartupObject>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <OutputPath></OutputPath>
-    <DocumentationFile>..\..\docs\Codecool.CodeCoolersEverywhere\Codecool.CodeCoolersEverywhere.xml</DocumentationFile>
-    <CodeAnalysisRuleSet>..\Codecool.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
 
 </Project>
