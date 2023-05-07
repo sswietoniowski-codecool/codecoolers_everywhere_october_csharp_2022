@@ -13,11 +13,11 @@ namespace Codecool.CodeCoolersEverywhere.DbGenerator
         /// performance problems you can limit the number of schools per Codecooler, reducing the 
         /// size of switch table.
         /// </summary>
-        public const int CODECOOLERNUM = 1000000;
+        public const int CODECOOLERNUM = 100000;
         public const int PERCENTAGETOLOG = 100;
         public const int SCHOOLNUM = 100;
         public const int MAXNUMBEROFSCHOOLSPERCODECOOLER = 5;
-        public const string DATABASEFILENAME = "database.sql";
+        public const string DATABASEFILENAME = "database-100k.sql";
         public static string CURDIR = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..\\..\\..\\"));
         public static string WRITEPATH = CURDIR + DATABASEFILENAME;
         public const int BATCHSIZE = 1000;
